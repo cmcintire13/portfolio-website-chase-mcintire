@@ -22,7 +22,7 @@
   import axios from "axios";
   
   export default {
-    name: "Portfolio",
+    name: "Portfolio-page",
     data() {
       return {
         repositories: [],
@@ -32,7 +32,6 @@
     },
     methods: {
       async fetchRepositories() {
-        const username = "cmcintire13"; 
         const apiUrl = `https://api.github.com/users/cmcintire13/repos`;
         try {
           const response = await axios.get(apiUrl);
