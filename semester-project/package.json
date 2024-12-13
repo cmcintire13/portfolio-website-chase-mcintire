@@ -2,7 +2,7 @@
   "name": "semester-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cmcintire13.github.io/portfolio-website-chase-mcintire/semester-project",
+  "homepage": "https://cmcintire13.github.io/portfolio-website-chase-mcintire/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
