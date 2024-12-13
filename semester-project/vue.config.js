@@ -1,4 +1,3 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true
-})
+module.exports = {
+  publicPath: '/portfolio-website-chase-mcintire/', // Replace <repository-name> with your GitHub repo name
+};
